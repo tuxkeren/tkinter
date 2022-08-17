@@ -1,4 +1,3 @@
-from stat import FILE_ATTRIBUTE_NORMAL
 from tkinter import *
 
 root = Tk()
