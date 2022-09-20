@@ -3,7 +3,7 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title('Contoh aplikasi Tkinter')
-root.iconbitmap('./cangkir.ico')
+root.iconbitmap('images/cangkir.ico')
 
 img1 = ImageTk.PhotoImage(Image.open("images/avatar.png"))
 img2 = ImageTk.PhotoImage(Image.open("images/avatar2.jpg"))
