@@ -3,9 +3,9 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title('Contoh aplikasi Tkinter')
-root.iconbitmap('./cangkir.ico')
+root.iconbitmap('images/cangkir.ico')
 
-img = ImageTk.PhotoImage(Image.open("avatar.png"))
+img = ImageTk.PhotoImage(Image.open("images/avatar.png"))
 label = Label(image=img)
 label.pack()
 
